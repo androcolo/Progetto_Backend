@@ -1,0 +1,67 @@
+
+.containerCrypto{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px 0 10px;
+    border-top: 1px solid #181930;
+}
+.containerCrypto:first-child{
+    border: none;
+}
+.cryptoElement,.cryptoElementNew{
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+.cryptoElementNew{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #181930;
+}
+.cryptoElement img,.cryptoElementNew img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.spanSpecial{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.spanSpecialChild{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+    iframe{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+.perEur,.ath{
+    display: none;
+}
+@media only screen and (min-width: 800px) {
+    .perEur{
+        display: block;
+    }
+  }
+@media only screen and (min-width: 1000px) {
+#totalValue{
+    width: 85%;
+    margin: 0 auto;
+}
+.ath{
+    display: block;
+}
+}
